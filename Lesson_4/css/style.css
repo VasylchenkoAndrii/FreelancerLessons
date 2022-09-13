@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+/*======================================================*/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+header p {
+  font-weight: 700;
+  color: royalblue;
+}
+
+.title {
+  font-family: "Lato";
+  font-weight: 900;
+  color: red;
+}
+
+span {
+  font-weight: 500;
+  color: tomato;
+}
+
+/*======================================================*/
+
+.section-nav__text {
+  color: green;
+}
+.section-nav__content {}
+
+/*======================================================*/
+
+.content-nav {}
+.content-nav__title {
+  font-family: "Lato";
+  font-weight: 700;
+  color: darkred;
+}
+.content-nav__items {}
+.content-nav__item {}
+.content-nav__link {
+  color: darkslategray;
+  cursor: pointer;
+}
+
+/*======================================================*/
+
+.section-history {}
+.section-history__conteiner {}
+.section-history__text {
+  font-family: "Larsseit";
+  font-weight: 400;
+  color: darksalmon;
+}
+
+.section-history__text span {
+  font-family: "Lato";
+  font-weight: 700;
+  color: turquoise;
+}
+
+/*======================================================*/
+
+.section-features p {
+  font-family: "Lato";
+  font-weight: 400;
+  color: lightseagreen;
+}
+
+/*======================================================*/
+
+.section-evolution p {
+  color: lightslategrey;
+}
+
+/*======================================================*/
+
+.section-culture__text {
+  font-weight: 400;
+  color: orange;
+}
+
+.section-culture__text span {
+  color: firebrick;
+}
+
+.section-other {}
+.section-other__items {}
+.section-other__item {
+  color: springgreen;
+}
+.section-other__link {
+  color: slateblue;
+}
+
+/*======================================================*/
+
+.footer p {
+  font-weight: 700;
+  color: teal;
+}
+
+.footer-link {
+  font-weight: 700;
+  color: lightsalmon;
+}
+
+.top {
+  font-family: "Lato";
+  font-weight: 900;
+  color:limegreen;
+}

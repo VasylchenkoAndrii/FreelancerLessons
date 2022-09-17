@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,500;1,700&display=swap');
+
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-Regular.woff2") format("woff2"), url("../fonts/Oswald-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-Medium.woff2") format("woff2"), url("../fonts/Oswald-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-Bold.woff2") format("woff2"), url("../fonts/Oswald-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-RegularItalic.woff2") format("woff2"), url("../fonts/Oswald-RegularItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-MediumItalic.woff2") format("woff2"), url("../fonts/Oswald-MediumItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Oswald";
+	src: url("../fonts/Oswald-BoldItalic.woff2") format("woff2"), url("../fonts/Oswald-BoldItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: italic;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E5E5E5;
+}
+
+.wrapper {
+  padding: 15px 15px;
+  text-align: center;
+}
+
+/*===========================================================*/
+
+.header__title {
+  font-family: "Oswald";
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  color: khaki;
+  text-shadow: 1px 1px 7px #000;
+  text-transform: uppercase;
+  margin: 10px 0px 30px 0px;
+}
+
+/*===========================================================*/
+
+.infographics__section {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.infographics__title {
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  color: royalblue;
+}
+.infographics__span {
+  text-decoration: line-through;
+}
+.infographics__img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.infographics__sab-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.1;
+  color: sandybrown;
+}
+.text__infographics {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  line-height: 2;
+  color: slategray;
+}
+
+/*===========================================================*/
+
+.history__section {
+  font-family: "Oswald";
+}
+.history__title {
+  font-family: "Oswald";
+  font-size: 25px;
+  font-weight: 700;
+  font-style: normal;
+  color: #000080;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+.history__year {
+  text-decoration: underline;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: darkgreen;
+}
+
+/*===========================================================*/
+
+.first-film {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.first-film__text {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 2px 2px 1px #fff;
+}
+
+.first-film ~ p {
+  font-family: "Oswald";
+  font-weight: 700;
+  color:#DAA520;
+  text-decoration: line-through;
+}
+
+/*===========================================================*/
+
+.year-development {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.year-development p {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: crimson;
+  font-style: italic;
+  text-shadow: 2px 2px 1px #fff;
+}
+
+/*===========================================================*/
+
+.sound-history {  
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sound-history__text {
+  font-family: 'Oswald';
+  font-weight: 500;
+  color: #DAA520;
+  font-style: normal;
+  text-shadow: 2px 2px 1px #fff;
+  letter-spacing: 1px;
+}
+.sound-history__text span {
+  color: red;
+  text-transform: uppercase;
+}
+
+/*===========================================================*/
+
+.ukrainian-poetic {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ukrainian-poetic__text {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: #000080;
+  text-shadow: 2px 2px 1px #fff;
+}
+/*===========================================================*/
+
+.stagnation {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+.stagnation__text {
+  font-family: "Oswald";
+  font-weight: 500;
+  color: #8B4513;
+  text-shadow: 2px 2px 1px #fff;
+}
+
+/*===========================================================*/
+
+.ukrainian-animation {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.ukrainian-animation > p {
+  color: red;
+}
+.ukrainian-animation__box {
+  padding-top: 30px;
+}
+.ukrainian-animation__text {
+  font-family: "Oswald";
+  font-weight: 500;
+  color: #D2691E;
+  text-shadow: 2px 2px 1px #fff;
+  font-style: italic;
+}
+
+/*===========================================================*/
+
+.modernity {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.modernity__text {
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: #2F4F4F;
+}
+
+/*===========================================================*/
+
+.modern {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.modern__text{
+  font-weight: 500;
+  color: #008080;
+  font-style: italic;
+}
+
+/*===========================================================*/
+
+.footer-text{
+  margin-top: 60px;
+  text-align: right;
+}
+.footer-text  a {
+  color: #000080;
+}
+

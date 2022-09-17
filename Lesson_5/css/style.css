@@ -112,11 +112,6 @@ body {
 .history__section {
   font-family: "Oswald";
 }
-.history__section p {
-  line-height: 1.5;
-  letter-spacing: 2px;
-  color: #8B4513;
-}
 .history__title {
   font-family: "Oswald";
   font-size: 25px;
@@ -196,7 +191,7 @@ body {
 .ukrainian-poetic__text {
   font-family: 'Open Sans';
   font-weight: 500;
-  color: #4B0082;
+  color: #000080;
   text-shadow: 2px 2px 1px #fff;
 }
 
@@ -264,7 +259,6 @@ body {
   margin-top: 60px;
   text-align: right;
 }
-
 .footer-text  a {
   color: #000080;
 }

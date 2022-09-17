@@ -146,7 +146,6 @@ body {
   font-family: "Oswald";
   font-weight: 700;
   color:#DAA520;
-  text-decoration: line-through;
 }
 
 /*===========================================================*/
@@ -178,6 +177,7 @@ body {
   letter-spacing: 1px;
 }
 .sound-history__text span {
+  font-family: 'Open Sans';
   color: red;
   text-transform: uppercase;
 }
@@ -247,10 +247,18 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .modern__text{
+  font-family: "Oswald";
   font-weight: 500;
   color: #008080;
   font-style: italic;
+}
+.modern + p {
+  font-family: "Oswald";
+  font-weight: 700;
+  color: red;
+  text-transform: uppercase;
 }
 
 /*===========================================================*/

@@ -115,6 +115,7 @@ body {
 .history__section p {
   line-height: 1.5;
   letter-spacing: 2px;
+  color: #8B4513;
 }
 .history__title {
   font-family: "Oswald";
@@ -144,6 +145,13 @@ body {
   font-weight: 500;
   font-style: italic;
   text-shadow: 2px 2px 1px #fff;
+}
+
+.first-film ~ p {
+  font-family: "Oswald";
+  font-weight: 700;
+  color:#DAA520;
+  text-decoration: line-through;
 }
 
 /*===========================================================*/
@@ -212,6 +220,12 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.ukrainian-animation > p {
+  color: red;
+}
+.ukrainian-animation__box {
+  padding-top: 30px;
+}
 .ukrainian-animation__text {
   font-family: "Oswald";
   font-weight: 500;
@@ -251,7 +265,7 @@ body {
   text-align: right;
 }
 
-.footer-text a {
+.footer-text  a {
   color: #000080;
 }
 

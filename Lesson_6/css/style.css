@@ -26,7 +26,7 @@
 
 body {
   font-family: "Lato";
-  background: #E5E5E5;
+  background: #FFFFFF;
 }
 .wrapper {
   max-width: 1200px;
@@ -181,7 +181,7 @@ body {
 .block-circle {
   display: inline-block;
   text-align: center;
-  background: #E5E5E5;
+  background: #fff;
   border-radius: 50%;
   width: 200px;
   height: 200px;

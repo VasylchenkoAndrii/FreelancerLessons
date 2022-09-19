@@ -56,7 +56,8 @@ body {
 .img__section{
   margin-bottom: 60px;
 }
-.img__section img {
+.img {
+  max-width: 100%;
   border-radius: 4px;
 }
 .img__text{

@@ -27,6 +27,7 @@
 body {
   font-family: "Lato";
   background: #FFFFFF;
+  font-weight: 400;
   color: #424551;
 }
 
@@ -71,12 +72,10 @@ body {
 .text__facilisi {
   display: inline-block;
   margin-bottom: 40px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
 }
 .text__amet {
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
 }
@@ -102,13 +101,11 @@ body {
 .list-item__text {
   display: inline-block;
   margin-bottom: 24px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
 }
 .list-items {
   padding-left: 32px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
 }
@@ -119,7 +116,6 @@ body {
 /*============================================================*/
 
 .text-enim__container {
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
   color: #424551;
@@ -166,7 +162,6 @@ body {
 
 }
 .background-three{
-  font-weight: 400;
   font-size: 16px;
   line-height: 160%;
 }

@@ -1,0 +1,191 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/*==========================================================*/
+
+body {
+  font-family: "Lato";
+  background: #FFFFFF;
+  color: #424551;
+}
+
+[class*="__container"] {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.header__container {
+  margin-top: 30px;
+  margin-bottom: 92px;
+}
+.header__title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+/*============================================================*/
+
+.img__container {
+  margin-bottom: 60px;
+}
+.img {
+  max-width: 100%;
+}
+
+/*============================================================*/
+
+.text__container {
+  margin-bottom: 48px;
+}
+.text__vulputate {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+.text__facilisi {
+  display: inline-block;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.text__amet {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/*============================================================*/
+
+.quote__container {
+  margin-bottom: 48px;
+}
+.quote__lorem {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  padding-left: 58px;
+  color: #1E212C;
+}
+
+/*============================================================*/
+
+.list-item__container {
+  margin-bottom: 20px;
+}
+.list-item__text {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.list-items {
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.item {
+  margin-bottom: 4px;
+}
+
+/*============================================================*/
+
+.text-enim__container {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  margin-bottom: 212px;
+}
+
+/*============================================================*/
+
+.background__one {
+  max-width: 100%;
+  padding: 10px 10px;
+  background: rgb(254,255,232), -moz-linear-gradient(top, rgb(254,255,232) 0%, rgb(214,219,191) 100%), -moz-linear-gradient(top, rgb(254,255,232) 0%, rgb(214,219,191) 100%);
+  background: -moz-linear-gradient(top, rgb(254,255,232) 0%, rgb(214,219,191) 100%);
+  background: -webkit-linear-gradient(top, rgb(254,255,232) 0%,rgb(214,219,191) 100%);
+  background: linear-gradient(to bottom, rgb(254,255,232) 0%,rgb(214,219,191) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffe8', endColorstr='#d6dbbf',GradientType=0 );
+  max-height: 100%;
+}
+.img__one {
+  background: url('../img/02.jpeg') 50% / 50% no-repeat fixed;
+  height: 1000px;
+}
+
+/*============================================================*/
+
+.background-twoo__section {
+  max-width: 100%;
+  background: url('../img/avatar.jpg') right / 5% no-repeat,
+              url('../img/avatar.jpg') 0 50% / 50px 50px no-repeat,
+              url('../img/avatar.jpg') 100% 100% / 100px 100px no-repeat, 
+              url('../img/avatar.jpg') 0 0 / 10% no-repeat, 
+              url('../img/avatar.jpg') center / 300px 300px no-repeat,
+              url('../img/03.png') 0 0 repeat;
+  height: 700px;
+}
+
+/*============================================================*/
+
+.background-three__section {
+  background: url("../img/04.jpg") 0 0 / cover no-repeat fixed;
+  height: 1000px;
+}
+.background-three__container {
+
+}
+.background-three{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/*============================================================*/
+
+.footer {
+  background: rgb(254,204,177);
+  background: -moz-linear-gradient(left, rgb(254,204,177) 0%, rgb(234,85,7) 71%, rgb(234,85,7) 86%, rgb(234,85,7) 100%, rgb(251,149,94) 100%, rgb(234,85,7) 101%);
+  background: -webkit-linear-gradient(left, rgb(254,204,177) 0%,rgb(234,85,7) 71%,rgb(234,85,7) 86%,rgb(234,85,7) 100%,rgb(251,149,94) 100%,rgb(234,85,7) 101%);
+  background: linear-gradient(to right, rgb(254,204,177) 0%,rgb(234,85,7) 71%,rgb(234,85,7) 86%,rgb(234,85,7) 100%,rgb(251,149,94) 100%,rgb(234,85,7) 101%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#ea5507',GradientType=1 );
+  }
+.footer__container {
+  height: 50px;
+}
+.footer__text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 160%;
+}

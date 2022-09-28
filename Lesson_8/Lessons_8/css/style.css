@@ -89,6 +89,7 @@ body {
   line-height: 160%;
   color: #424551;
   padding-left: 24px;
+  margin-bottom: 4px;
 }
 .curator__list li:first-child {
   background: url('../img/icon/star.svg') 0 5px no-repeat;

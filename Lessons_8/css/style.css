@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 160%;
+  color: #424551;
+}
+
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 15px 15px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+
+/*===========================================================================*/
+
+.main__container {
+  margin-top: 20px;
+}
+.about__title {
+  margin-bottom: 40px;
+}
+.about__text {
+  margin-bottom: 48px;
+}
+
+/*===========================================================================*/
+
+.learn-list__block {
+  margin-bottom: 50px;
+}
+.learn-list__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C;
+  margin-bottom: 24px;
+}
+.learn-list__item {
+  background: url('../img/icon/check.svg') 0 4px no-repeat;
+  padding-left: 32px;
+  margin-bottom: 4px;
+  min-height: 26px;
+}
+
+/*===========================================================================*/
+
+.title-curator__sub-title{
+  margin-bottom: 8px;
+}
+.title-curator__sub-title h4 {
+  font-weight: 700;
+  line-height: 150%;
+  color: #1E212C;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.title-curator__title {
+  margin-bottom: 16px;
+}
+.title-curator-text{
+  margin-bottom: 32px;
+}
+.title-curator-text p {
+  font-size: 20px;
+  line-height: 150%;
+  color: #787A80;
+}
+
+/*===========================================================================*/
+
+.curator__title {
+  margin-bottom: 50px;
+}
+.curator__list {
+  margin-bottom: 32px;
+}
+.curator__list li {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  padding-left: 24px;
+  margin-bottom: 4px;
+}
+.curator__list li:first-child {
+  background: url('../img/icon/star.svg') 0 5px no-repeat;
+}
+.curator__list li:nth-child(2) {
+  background: url('../img/icon/play.svg') 0 5px no-repeat;
+}
+.curator__list li:last-child {
+  background: url('../img/icon/profile.svg') 0 5px no-repeat;
+}
+
+/*===========================================================================*/
+/*===========================================================================*/
+/*===========================================================================*/
+
+.block__сondition {
+ margin-bottom: 40px;
+}
+.condition__hover{
+  margin-bottom: 40px;
+}
+.condition__title{
+  margin-bottom: 20px;
+}
+.condition__title h4{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.condition__title h4:target {
+  display: inline;
+  background-color: gold;
+}
+.condition__hover {
+  padding-top: 5px;
+}
+.block__google-hover {
+  display: inline-block;
+  color: #1E212C;
+  font-size: 40px;
+}
+.block__google-g {
+  color: blue;
+}
+.block__google-o {
+  color: #FF3F3A;
+}
+.block__google-oo {
+  color: gold;
+}
+.block__google-l {
+  color:green;
+}
+.block__google-e {
+}
+.block__google-hover:hover::before{
+  background: url('../img/icon/google.svg') 0 0 no-repeat;
+  content: "";
+  display: inline-block;
+  width: 30px;
+	height: 30px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/*===========================================================================*/
+
+.active__block {
+  margin-bottom: 40px;
+}
+.active__title {
+  margin-bottom: 20px;
+}
+.active__title h4{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.active__title h4:target {
+  display: inline;
+  background-color: gold;
+}
+.active__condition {
+}
+.active__apple-condition {
+  display: inline-block;
+  color: #1E212C;
+  font-size: 40px;
+}
+.active__apple-condition:hover {
+  color: blue;
+}
+.active__apple-condition:active {
+  color: red;
+}
+.active__apple-condition:hover::before {
+  background: url('../img/icon/apple.svg') 0 0 no-repeat;
+  content: "";
+  display: inline-block;
+  width: 30px;
+	height: 30px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/*===========================================================================*/
+
+.visited__block {
+  margin-bottom: 40px;
+}
+.visited__title {
+  margin-bottom: 20px;
+}
+.visited__title h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.visited__title h4:target {
+  display: inline;
+  background-color: gold;
+}
+.visited__condition {
+  display: inline-block;
+  color: #1E212C;
+  font-size: 40px;
+}
+.visited__facebook-condition:visited {
+  color: fuchsia;
+}
+.visited__facebook-condition:hover {
+  color: blue;
+}
+.visited__facebook-condition:hover::before {
+  background: url("../img/icon/facebook.svg") 0 0 no-repeat;
+  content: "";
+  display: inline-block;
+  width: 30px;
+	height: 30px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/*===========================================================================*/
+
+.focus__block {
+  margin-bottom: 40px;
+}
+.focus__title {
+  margin-bottom: 20px;
+}
+.focus__title h4{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.focus__title h4:target {
+  display: inline;
+  background-color: gold;
+}
+.focus__amazon-condition {
+  display: inline-block;
+  color: #e47911;
+  font-size: 40px;
+}
+.focus__amazon-condition:focus {
+  color: red;
+  outline: 2px solid red;
+}
+.focus__amazon-condition:hover {
+  color: blue;
+}
+.focus__amazon-condition:hover::before {
+  background: url("../img/icon/amazon.svg") 0 3px no-repeat;
+  content: "";
+  display: inline-block;
+  width: 30px;
+	height: 30px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+/*===========================================================================*/
+
+.target__block {
+  margin-bottom: 40px;
+}
+.target__title {
+  margin-bottom: 20px;
+}
+.target__title h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.target__item {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.target__item a {
+  display: inline-block;
+}
+.target__item:first-child{
+  color: blue;
+}
+.target__item:nth-child(2) {
+  color: #FF3F3A;
+}
+.target__item:nth-child(3) {
+  color: goldenrod;
+}
+.target__item:hover:nth-child(3) {
+  color:green
+}
+.target__item:last-child{
+  color:green
+}
+.target__item:hover::before{
+  content: "";
+  background: url('../img/icon/arrow.svg') 0 2px no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.target__item:hover::after {
+  content: "";
+  background: url('../img/icon/arrow.svg') 0 -2px no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+.target__item:hover {
+  color: gold;
+}
+
+/*===========================================================================*/
+
+.game__block {
+  margin-bottom: 50px;
+}
+.game__title {
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #FF3F3A;
+}
+.game__title h3{
+  text-align: center;
+}
+.game__start {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.start__game {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: url("../img/icon/start-icon.svg") center center no-repeat fuchsia;
+  cursor: pointer;
+}
+.start__hover {
+  display: inline-block;
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  background-color: fuchsia;
+}
+.start__game:hover .start__hover {
+  opacity: 1;
+  visibility: visible;
+  background: url("../img/icon/start-icon.svg") 3px 9px no-repeat fuchsia;
+}
+.start__hover-1 {
+  width: 40px;
+  height: 180px;
+  margin-left: 560px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: fuchsia;
+  opacity : 0;
+  visibility : hidden;
+}
+.start__hover:hover .start__hover-1 {
+  opacity : 1;
+  visibility : visible;
+}
+.start__hover-2 {
+  width: 300px;
+  height: 40px;
+  margin-top: 160px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: fuchsia;
+  opacity : 0;
+  visibility : hidden;
+}
+.start__hover-1:hover .start__hover-2 {
+  opacity : 1;
+  visibility : visible;
+}
+.start__hover-3 {
+  width: 30px;
+  height: 100px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 270px;
+  background-color: fuchsia;
+  opacity : 0;
+  visibility : hidden;
+}
+.start__hover-2:hover .start__hover-3{
+  opacity : 1;
+  visibility : visible;
+}
+.start__hover-4 {
+  display: inline-block;
+  width: 600px;
+  height: 25px;
+  margin-left: -580px;
+  margin-top: 75px;
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  background-color: fuchsia;
+}
+.start__hover-3:hover .start__hover-4{
+  opacity : 1;
+  visibility : visible;
+}
+.start__hover-5 {
+  width: 20px;
+  height: 180px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: fuchsia;
+  opacity : 0;
+  visibility : hidden;
+}
+.start__hover-4:hover .start__hover-5{
+  opacity : 1;
+  visibility : visible;
+}
+.game__finish {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 160px;
+  margin-left: -10px;
+  background: url("../img/icon/finish-icon.svg") center center no-repeat fuchsia;
+  cursor: pointer;
+}
+.start__hover-5:hover{
+  opacity : 1;
+  visibility : visible;
+}
+.game__finish:hover {
+  background-color: hotpink;
+}
+
+/*===========================================================================*/
+
+.footer__block {
+  margin-bottom: 30px;
+}
+.footer__title {
+  font-weight: 700;
+  text-align: center;
+  color: fuchsia;
+  font-size: 30px;
+}

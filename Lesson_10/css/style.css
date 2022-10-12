@@ -1,0 +1,62 @@
+.wrapper {}
+
+.header {}
+.header__title {}
+
+.article__container {}
+.article__img {}
+.article__main-text {}
+.article__text {}
+.article__quote-text {}
+.article__list {}
+.article__item {}
+.article__desc-text {}
+
+.content__container {}
+.content__img {}
+.content__block-list {}
+.content__subtitle {}
+
+.subtitle {}
+
+.content__title {}
+.title {}
+.content__list {}
+.content__item {}
+.content__button {}
+
+.courses {}
+.courses__block-title {}
+.courses__subtitle {}
+.courses__title {}
+.courses__cart {}
+
+.cart-teacher {}
+.cart-teacher__img {}
+.cart-teacher__subtitle {}
+
+.subtitle-cart {}
+
+.cart-teacher__title {}
+.cart-teacher__price {}
+.cart-teacher__name {}
+
+.benefits {}
+.benefits__block-title {}
+.benefits__subtitle {}
+.benefits__title {}
+.benefits__tabs {}
+.benefits__text {}
+.benefits__img {}
+
+.tabs-benefits {}
+.tabs-benefits__experienced {}
+.tabs-benefits__feedback {}
+.tabs-benefits__online {}
+.tabs-benefits__community {}
+
+.text-benefits {}
+.text-benefits__title {}
+.text-benefits__text {}
+
+.footer {}

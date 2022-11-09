@@ -1,0 +1,122 @@
+body {
+  background: url('../img/01.jpeg') 0 0 / cover no-repeat fixed;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+/*=======================================*/
+
+.section__container {
+  position: relative;
+  width: 480px;
+  height: 500px;
+}
+.section__translate {
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  transform: scale(0.1);
+  transition: all 4s ease 0s;
+}
+.section__translate:hover {
+  transform: scale(1);
+}
+.auto-pazl__top-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.auto-pazl__top-centr {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+}
+.auto-pazl__top-right {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+}
+.auto-pazl__button-left {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+}
+.auto-pazl__button-center {
+  position: absolute;
+  top: 180px;
+  left: 150px;
+}
+.auto-pazl__button-right {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+}
+
+/*=======================================*/
+
+.section-mriya__container {
+  position: relative;
+  top: -400px;
+  left: 550px;
+}
+.section-mriya__image {
+  width: 300px;
+  height: 150px;
+  transition: all 3s ease 0s;
+  transform: scale(1);
+}
+.section-mriya__image:hover {
+  transform: translate(-60%, -60%) scale(0.3);
+}
+
+/*=======================================*/
+
+.section-wind {
+  position: absolute;
+  max-height: 100%;
+  top: 120px;
+  left: 200px;
+}
+.wind__pillar {
+  position: relative;
+  top: 50px;
+}
+
+/*=======================================*/
+
+.wind__airscrew {
+  position: relative;
+  left: -50px;
+  top: -350px;
+  transition: all 0.3s ease 0s;
+}
+.wind__airscrew:hover {
+  transform: rotate(-10deg);
+  left: -60px;
+}
+
+/*=======================================*/
+
+.section-glare {
+  position: absolute;
+  max-height: 100%;
+  left: 340px;
+  top: 450px;
+}
+.glare__image {
+  position: relative;
+  transform: scale3d(1.1,1,2);
+  opacity: 0.4;
+  transition: all 0.5s ease 0s;
+}
+.glare__image:hover {
+  transform: translate(30px, 30px) scale(0.8);
+  opacity: 0.3;
+}
+
+/*=======================================*/

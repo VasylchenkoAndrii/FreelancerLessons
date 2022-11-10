@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body {
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 160%;
+  color: #424551;
+  background-color: grey;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  min-height: 100%;
+}
+
+/*=======================================*/
+
+.page__container { 
+  width: 800px;
+  margin: 0 auto;
+}
+
+.duration__block {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  cursor: pointer;
+}
+.title {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+}
+.duration__item {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: hotpink;
+  transition-duration: 0.3s;
+}
+.duration__item:hover {
+  width: 250px;
+}
+
+/*=======================================*/
+
+.property__block {
+  margin-bottom: 150px;
+  cursor: pointer;
+}
+.property__item {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: hotpink;
+  transition-duration: 0.3s, 0.7s;
+  transition-property: width, height;
+}
+.property__block:hover .property__item{
+  width: 250px;
+  height: 250px;
+}
+
+/*=======================================*/
+
+.delay__block {
+  margin-bottom: 150px;
+  cursor: pointer;
+}
+.delay__item {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: hotpink;
+  transition-duration: 0.3s, 0.7s;
+  transition-property: width, height;
+}
+.delay__block:hover .delay__item {
+  transition-delay: 0.5s;
+  width: 250px;
+  height: 250px;
+}
+
+/*=======================================*/
+
+.timing-function__block {
+  margin-bottom: 150px;
+  cursor: pointer;
+}
+.timing-function__item {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: hotpink;
+  transition-duration: 0.3s, 0.5s;
+  transition-property: width, height, translate;
+  transition-timing-function: cubic-bezier(.03,.64,.95,.36);
+}
+.timing-function__block:hover .timing-function__item {
+  width: 250px;
+  height: 250px;
+  transform: translate(10%, 10%);
+}
+
+/*=======================================*/
+
+.animation__block {
+  margin-bottom: 150px;
+  cursor: pointer;
+}
+.animation__item {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: hotpink;
+  animation: rotate;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*=======================================*/
+
+.animation-direction__block {
+  margin-bottom: 150px;
+  cursor: pointer;
+}
+.animation-direction__item {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: hotpink;
+  animation: direction;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: running;
+}
+.animation-direction__item:hover {
+  animation-play-state: paused ;
+}
+
+@keyframes direction {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(800px, 0);
+  }
+}

@@ -31,24 +31,24 @@
                   <div class="form-name__name">
                     <label class="form-label" for="first-name">First Name*</label>
                     <input class="form-input" id="first-name" autocomplete="off" placeholder="Your first name"
-                      name="name" type="text">
+                      name="name" type="text" required>
                   </div>
                   <div class="form-name__last">
                     <label class="form-label" for="last-name">Last Name*</label>
                     <input class="form-input" id="last-name" autocomplete="off" placeholder="Your last name"
-                      name="surname" type="text">
+                      name="surname" type="text" required>
                   </div>
                 </div>
                 <div class="form__block">
                   <div class="form-name__mail">
                     <label class="form-label" for="email">Email*</label>
                     <input class="form-input" id="email" autocomplete="off" placeholder="Your working email" name="mail"
-                      type="email">
+                      type="email" required>
                   </div>
                   <div class="form-name__phone">
                     <label class="form-label" for="iphone">Phone</label>
                     <input class="form-input" id="iphone" autocomplete="off" placeholder="Your phone number"
-                      name="phone" type="tel">
+                      name="phone" type="tel" required>
                   </div>
                 </div>
               </div>
@@ -58,11 +58,11 @@
               </div>
               <div class="form-feedback__check check">
                 <div class="check__input">
-                  <input class="check__checkbox-input" id="checkbox" name="phone" type="checkbox">
+                  <input class="check__checkbox-input" id="checkbox" name="phone" type="checkbox" required>
                   <label class="check__label" for="checkbox">I agree to receive communications from Createx Online
                     School</label>
                 </div>
-                <a class="check__buttom" href="#">Send message</a>
+                <button class="check__buttom" type="submit">Send message</button>
               </div>
             </form>
           </div>

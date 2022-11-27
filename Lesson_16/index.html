@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 16</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+    </header>
+    <main class="page">
+      <div class="feedback__container">
+        <div class="feedback__illustr ">
+          <img src="img/illustration.svg" alt="illustration" class="illustr-image__img">
+        </div>
+        <div class="feedback__form form-feedback">
+          <div class="form-feedback__text">
+            <h4 class="form-feedback__sub-title">Any questions?</h4>
+            <h2 class="form-feedback__title">Drop us a line</h2>
+          </div>
+          <div class="form-feedback__form">
+            <form method="POST" enctype="multipart/form-data" action="#">
+              <div class="form-feedback__data form">
+                <div class="form__block form-name">
+                  <div class="form-name__name">
+                    <label class="form-label" for="first-name">First Name*</label>
+                    <input class="form-input" id="first-name" autocomplete="off" placeholder="Your first name"
+                      name="name" type="text">
+                  </div>
+                  <div class="form-name__last">
+                    <label class="form-label" for="last-name">Last Name*</label>
+                    <input class="form-input" id="last-name" autocomplete="off" placeholder="Your last name"
+                      name="surname" type="text">
+                  </div>
+                </div>
+                <div class="form__block">
+                  <div class="form-name__mail">
+                    <label class="form-label" for="email">Email*</label>
+                    <input class="form-input" id="email" autocomplete="off" placeholder="Your working email" name="mail"
+                      type="email">
+                  </div>
+                  <div class="form-name__phone">
+                    <label class="form-label" for="iphone">Phone</label>
+                    <input class="form-input" id="iphone" autocomplete="off" placeholder="Your phone number"
+                      name="phone" type="tel">
+                  </div>
+                </div>
+              </div>
+              <div class="form-feedback__message message-form">
+                <label class="message-form__label" for="message">Message*</label>
+                <textarea class="message-form__input" id="message" placeholder="Your message"></textarea>
+              </div>
+              <div class="form-feedback__check check">
+                <div class="check__input">
+                  <input class="check__checkbox-input" id="checkbox" name="phone" type="checkbox">
+                  <label class="check__label" for="checkbox">I agree to receive communications from Createx Online
+                    School</label>
+                </div>
+                <a class="check__buttom" href="#">Send message</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="other">
+        <div class="other__container">
+          <div class="other__form form-other">
+              <form method="POST" enctype="multipart/form-data" action="#">
+                <div class="form-other__name-auto">Favorite car brand</div>
+                <div class="form-other__radio">
+                  <input class="form-other__input" id="auto-bmw" name="car" type="radio">
+                  <label class="form-other__label" for="auto-bmw">BMW</label>
+                </div>
+                <div class="form-other__radio">
+                  <input class="form-other__input" id="auto-mercedes"  name="car"
+                    type="radio">
+                  <label class="form-other__label" for="auto-mercedes">Mercedes</label>
+                </div>
+                <div class="form-other__radio">
+                  <input class="form-other__input" id="auto-audi" name="car" type="radio">
+                  <label class="form-other__label" for="auto-audi">Audi</label>
+                </div>
+            <div class="form-other__checkbox-block">
+              <div class="form-other__title">Filter auto</div>
+              <div class="form-other__checkbox">
+                <input class="form-other__input" id="auto-bmw-check" value="cat" name="pet"
+                  type="checkbox">
+                <label class="form-other__label" for="auto-bmw-check">BMW</label>
+              </div>
+              <div class="form-other__checkbox">
+                <input class="form-other__input" id="auto-mercedes-check" name="pet"
+                  value="dog" type="checkbox">
+                <label class="form-other__label" for="auto-mercedes-check">Mercedes</label>
+              </div>
+              <div class="form-other__checkbox">
+                <input class="form-other__input" id="auto-audi-check" name="pet" value="dog"
+                  type="checkbox">
+                <label class="form-other__label" for="auto-audi-check">Audi</label>
+              </div>
+              <div class="form-other__checkbox">
+                <input checked class="form-other__input" id="auto-volkswagen" name="pet"
+                  value="dog" type="checkbox">
+                <label class="form-other__label" for="auto-volkswagen">Volkswagen</label>
+              </div>
+              <div class="form-other__checkbox">
+                <input class="form-other__input" id="auto-skoda" name="pet" value="dog"
+                  type="checkbox">
+                <label class="form-other__label" for="auto-skoda">Skoda</label>
+              </div>
+              <div class="form-other__checkbox">
+                <input class="form-other__input" id="auto-ford" name="pet" value="dog"
+                  type="checkbox">
+                <label class="form-other__label" for="auto-ford">Ford</label>
+              </div>
+            </div>
+            <div class="form-other__select select">
+              <select name="select__list">
+                <option value="">BMW</option>
+                <option value="">Mercedes</option>
+                <option value="">Audi</option>
+                <option value="">Volkswagen</option>
+                <option value="">Skoda</option>
+                <option value="">Ford</option>
+              </select>
+            </div>
+            <div class="form-other__file file">
+              <input class="file__input" name="file" accept="image/png, image/jpeg" multiple type="file">
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+    </footer>
+  </div>
+</body>
+
+</html>
